@@ -1,0 +1,32 @@
+{
+  "name": "sand-google-storage",
+  "version": "1.0.0",
+  "description": "Fetch / Upload images to google cloud storage",
+  "main": "lib/Grain.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "google",
+    "gcloud",
+    "storage"
+  ],
+  "author": "Kevin Smithson <ksmithson@sazze.com>",
+  "license": "ISC",
+  "dependencies": {
+    "arrify": "^1.0.1",
+    "async": "^2.0.1",
+    "concat-stream": "^1.5.2",
+    "duplexify": "^3.4.5",
+    "event-stream": "^3.3.4",
+    "gcs-resumable-upload": "^0.7.3",
+    "google-auto-auth": "^0.2.4",
+    "lodash": "^4.15.0",
+    "once": "^1.4.0",
+    "pumpify": "^1.3.5",
+    "request": "^2.74.0",
+    "sand-grain": "^1.1.1",
+    "stream-events": "^1.0.1",
+    "through2": "^2.0.1"
+  }
+}
