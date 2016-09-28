@@ -1,6 +1,6 @@
 {
   "name": "sand-google-storage",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Fetch / Upload images to google cloud storage",
   "main": "lib/Grain.js",
   "scripts": {
